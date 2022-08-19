@@ -1,11 +1,13 @@
 A construção de uma função está dividida em três partes
 1 - Tipo de retorno
 2 - Nome da função
-3 - Parâmetros (normais, nomeados, opcionais)
+3 - Parâmetros (normais, nomeados, obrigatórios por default, opcionais)
+
+(funções void nao tem retorno)
 # Parâmetros de uma função
 ^54473a
 **Os parâmetros podem ser...**
-## ...obrigatórios
+## ...obrigatórios (default)
 ```dart
   int somaInteiros(int num1, int num2) {
     return num1 + num2;
@@ -109,4 +111,4 @@ Funções anônimas atribuidas a variáveis tem o nome de #clojure
 
 # typedef
 Funções também podem receber outras funções como parâmetros.
-[consultar vídeo parte3 antes e preencher o conteúdo](https://academiadoflutter20.club.hotmart.com/lesson/EOgQ9ZGbe6/funcoes-parametros-anonimas-e-typedef)
+[consultar vídeo parte3 antes e preencher o conteúdo](https://jornada.academiadoflutter.com.br/curso/jornada-dart-funcoes-e-colecoes/4537/25544)
