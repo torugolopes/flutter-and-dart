@@ -57,8 +57,9 @@ Ferramentas para o laço
 - Parâmetros de uma função 
 - Arrow functions 
 - Funções anônimas 
-- Clojure
-- typedef
+- Clojure (não foi feito ainda)
+- funções como parâmetros de outras funçoes (nao feito ainda)
+- typedef (nao feito ainda)
 
 
 ## ->Tratamento de Nulos 

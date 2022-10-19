@@ -104,11 +104,19 @@ A função anônima jogada no código deve terminar com ( ), pois é assim que a
 Função anônima atribuida a uma variável:
 Funções anônimas atribuidas a variáveis tem o nome de #clojure
 ```dart
-  var somaInteiros = (int num1, int num2) => num1 + num2;
-  print(somaInteiros(1, 5));
+  var olaMundo = (){
+	  print('ola mundo');
+	}()
+  olaMundo()
 ```
->6
+>ola mundo
+
+# Funções como parâmetros de outras funções
+
 
 # typedef
 Funções também podem receber outras funções como parâmetros.
 [consultar vídeo parte3 antes e preencher o conteúdo](https://jornada.academiadoflutter.com.br/curso/jornada-dart-funcoes-e-colecoes/4537/25544)
+
+por volta de min 14
+
